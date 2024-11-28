@@ -2,7 +2,7 @@ import unittest
 from io import BytesIO
 from flask import Flask
 from html2image import Html2Image
-from progress_bar import app, calculate_percentage, create_html_content
+from app import app, calculate_percentage, create_html_content
 
 
 class FlaskAppTestCase(unittest.TestCase):
